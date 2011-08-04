@@ -1,0 +1,28 @@
+h1. Lokka Textile
+
+Textile plugin for Lokka.
+
+h2. Installation
+
+<pre>
+$ cd LOKKA_ROOT/public/plugin
+$ git clone git://github.com/deeeki/lokka-textile.git
+$ cd LOKKA_ROOT
+$ bundle install [--without=production:test] # or "bundle update"
+</pre>
+
+h2. Usage
+
+Edit your theme like sample below.
+
+h3 property way
+
+<pre>
+<%= @entry.body_html %>
+</pre>
+
+h3 helper way
+
+<pre>
+<%= textile_to_html @entry.body %>
+</pre>
