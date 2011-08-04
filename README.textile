@@ -26,3 +26,5 @@ h3. helper way
 <pre>
 <%= textile_to_html @entry.body %>
 </pre>
+
+When you edit posts/pages with Textile, use "Show Source" mode.
