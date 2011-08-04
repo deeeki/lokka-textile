@@ -15,13 +15,13 @@ h2. Usage
 
 Edit your theme like sample below.
 
-h3 property way
+h3. property way
 
 <pre>
 <%= @entry.body_html %>
 </pre>
 
-h3 helper way
+h3. helper way
 
 <pre>
 <%= textile_to_html @entry.body %>
